@@ -1145,7 +1145,7 @@ Returns Euclidean distance in meters from this location to another one.
 
 ---
 
-## carla.Map<a name="carla.Map"></a> <sub><sup>_class_</sup></sub>
+## carla.Map<a name="carla.Map"></a>
 Class containing the road information and waypoint managing. Data is retrieved from an OpenDRIVE file that describes the road. A query system is defined which works hand in hand with [carla.Waypoint](#carla.Waypoint) to translate geometrical information from the .xodr to natural world points. CARLA is currently working with [OpenDRIVE 1.4 standard](http://www.opendrive.org/docs/OpenDRIVEFormatSpecRev1.4H.pdf).
 
 <h3>Instance Variables</h3>
@@ -1530,11 +1530,6 @@ Describes a rotation for an object according to Unreal Engine's axis system.
 
 <h3>Methods</h3>
 - <a name="carla.Transform.__init__"></a>**<font color="#7fb800">\__init__</font>**(<font color="#00a6ed">**self**</font>, <font color="#00a6ed">**location**</font>, <font color="#00a6ed">**rotation**</font>)
-    - **Parameters:**
-        - `location` (_[carla.Location](#carla.Location)_)
-        - `rotation` (_[carla.Rotation](#carla.Rotation)_)
-- <a name="carla.Transform.transform"></a>**<font color="#7fb800">transform</font>**(<font color="#00a6ed">**self**</font>, <font color="#00a6ed">**in_point**</font>)
-Transform a 3D point using the current transformation.
     - **Parameters:**
         - `location` (_[carla.Location](#carla.Location)_)
         - `rotation` (_[carla.Rotation](#carla.Rotation)_)
